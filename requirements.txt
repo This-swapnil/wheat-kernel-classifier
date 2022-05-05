@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+Flask
+Flask-cors
+kneed
+matplotlib
+scipy
+gunicorn
+xgboost
+dvc
+pyyaml
+.
