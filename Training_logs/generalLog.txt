@@ -1,0 +1,6 @@
+2022-05-19 /14:02:1652949165		Directory is Created at: artifacts/split_data_dir
+2022-05-19 /14:02:1652949165		data is saved atartifacts/split_data_dir/train.csv
+2022-05-19 /14:02:1652949165		data is saved atartifacts/split_data_dir/test.csv
+2022-05-19 /14:07:1652949449		Directory is Created at: artifacts/split_data_dir
+2022-05-19 /14:07:1652949449		data is saved atartifacts/split_data_dir/train.csv
+2022-05-19 /14:07:1652949449		data is saved atartifacts/split_data_dir/test.csv

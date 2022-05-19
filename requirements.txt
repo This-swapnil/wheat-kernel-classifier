@@ -10,4 +10,4 @@ gunicorn
 xgboost
 dvc
 pyyaml
-.
+-e .

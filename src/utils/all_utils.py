@@ -5,7 +5,7 @@ import yaml
 from application_logging import logger
 
 file_object = open("Training_logs/generalLog.txt", "a+")
-log_writter = logger.App_Logger()
+log_writter = logger.App_logger()
 
 
 def read_yaml(path_to_yaml: str) -> dict:

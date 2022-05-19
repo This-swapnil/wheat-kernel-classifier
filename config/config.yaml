@@ -1,4 +1,4 @@
-data_source: https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt
+data_source: https://raw.githubusercontent.com/vigneshprakash1997/Seed-Dataset-Classification-and-Clustering-/main/seeds_dataset.csv
 
 artifacts:
   artifacts_dir: artifacts
