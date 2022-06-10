@@ -27,8 +27,8 @@ stages:
       md5: 9eab08d4c619fc149292badb4ab98dca
       size: 412
     - path: src/stage_02_spilt_data.py
-      md5: 75b9f9ed458afc8cd755ff0a1a6c30d9
-      size: 1736
+      md5: d71757fc1bc5a95638c92dfc00707ad2
+      size: 1944
     - path: src/utils/all_utils.py
       md5: 0af5fd9bb964a66311f401a8db8f7bee
       size: 771

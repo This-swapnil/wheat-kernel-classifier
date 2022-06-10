@@ -4,3 +4,9 @@
 2022-05-19 /14:07:1652949449		Directory is Created at: artifacts/split_data_dir
 2022-05-19 /14:07:1652949449		data is saved atartifacts/split_data_dir/train.csv
 2022-05-19 /14:07:1652949449		data is saved atartifacts/split_data_dir/test.csv
+2022-06-10 /21:15:1654875942		Directory is Created at: artifacts/raw_local_dir
+2022-06-10 /21:15:1654875942		Data downloaded at: artifacts/raw_local_dir/data.csv
+2022-06-10 /21:15:1654875946		Directory is Created at: artifacts/split_data_dir
+2022-06-10 /21:15:1654875946		data is saved atartifacts/split_data_dir/train.csv
+2022-06-10 /21:15:1654875946		data is saved atartifacts/split_data_dir/test.csv
+2022-06-10 /21:15:1654875946		Data splitted into train and test
