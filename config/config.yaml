@@ -6,6 +6,7 @@ artifacts:
   raw_local_file: data.csv
 
   split_data_dir: split_data_dir
+  scaled: scaled.model
   train: train.csv
   test: test.csv
 

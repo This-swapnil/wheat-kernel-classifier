@@ -10,3 +10,15 @@
 2022-06-10 /21:15:1654875946		data is saved atartifacts/split_data_dir/train.csv
 2022-06-10 /21:15:1654875946		data is saved atartifacts/split_data_dir/test.csv
 2022-06-10 /21:15:1654875946		Data splitted into train and test
+2022-11-19 /11:54:1668839078		Directory is Created at: artifacts/split_data_dir
+2022-11-19 /11:54:1668839078		data is saved atartifacts/split_data_dir/train.csv
+2022-11-19 /11:54:1668839078		data is saved atartifacts/split_data_dir/test.csv
+2022-11-19 /11:54:1668839078		Data splitted into train and test
+2022-11-19 /12:02:1668839544		Directory is Created at: artifacts/model_dir
+2022-11-19 /12:02:1668839544		Directory is Created at: artifacts/split_data_dir
+2022-11-19 /12:02:1668839544		data is saved atartifacts/split_data_dir/train.csv
+2022-11-19 /12:02:1668839544		data is saved atartifacts/split_data_dir/test.csv
+2022-11-19 /12:02:1668839544		Data splitted into train and test
+2022-11-19 /12:15:1668840352		Directory is Created at: artifacts/model_dir
+2022-11-19 /12:15:1668840352		Directory is Created at: artifacts/split_data_dir
+2022-11-19 /12:15:1668840352		Data splitted into train and test

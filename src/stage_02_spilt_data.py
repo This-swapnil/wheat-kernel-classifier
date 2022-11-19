@@ -2,8 +2,10 @@ import argparse
 from src.utils.all_utils import read_yaml,create_directory,save_local_df
 import pandas as pd
 import os
+import joblib
 from application_logging import logger
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 
 file_object = open("Training_logs/generalLog.txt", "a+")
 log_writter = logger.App_logger()
@@ -20,6 +22,7 @@ def split_and_save_data(config_path, params_path):
     artifacts_dir = config['artifacts']['artifacts_dir']
     raw_local_dir = config['artifacts']['raw_local_dir']
     raw_local_file= config['artifacts']['raw_local_file']
+    scaler_dir = config['artifacts']['model_dir']
 
     raw_local_file_path = os.path.join(artifacts_dir, raw_local_dir, raw_local_file)
 
@@ -28,7 +31,17 @@ def split_and_save_data(config_path, params_path):
     split_ratio = params['base']['test_size']
     random_state = params['base']['random_state']
 
-    train,test = train_test_split(df,test_size=split_ratio,random_state=random_state)
+    # standard scaling
+    scaler = StandardScaler()
+    df_scaled = scaler.fit_transform(df)
+
+    create_directory(dirs=[os.path.join(artifacts_dir,scaler_dir)])
+    scaled_data_filename = config['artifacts']['scaled']
+    model_path = os.path.join(artifacts_dir,scaler_dir,scaled_data_filename)
+    joblib.dump(scaler,model_path)
+
+
+    train,test = train_test_split(df_scaled,test_size=split_ratio,random_state=random_state)
     log_writter.log(file_object, f"Data splitted into train and test")
 
     split_data_dir = config['artifacts']['split_data_dir']
